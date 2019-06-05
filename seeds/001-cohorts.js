@@ -5,7 +5,11 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('cohorts').insert([
-        { name: 'testing' }
+        { name: 'Full Stack Web' },
+        { name: 'Ios Development' },
+        { name: 'Android Development' },
+        { name: 'Data Science' },
+        { name: 'UX Design' }
       ]);
     });
 };
