@@ -8,6 +8,7 @@ module.exports = {
       filename: './data/lambda.db3'
     },
     useNullAsDefault: true,
+    debug: true
   }
 
 };
