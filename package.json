@@ -1,0 +1,29 @@
+{
+  "name": "webdb-iii-challenge",
+  "version": "1.0.0",
+  "description": "Migrations Project for BE ",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-maas/webdb-iii-challenge.git"
+  },
+  "author": "Jay Maas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jay-maas/webdb-iii-challenge/issues"
+  },
+  "homepage": "https://github.com/jay-maas/webdb-iii-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.17.3",
+    "sqlite3": "^4.0.8",
+    "time-stamp": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
